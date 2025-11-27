@@ -1,0 +1,135 @@
+/* GLOBAL STYLES */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #0b0b0b;
+    color: #fff;
+}
+
+h2 {
+    font-size: 32px;
+    border-left: 5px solid #4CAF50;
+    padding-left: 12px;
+}
+
+/* NAVBAR */
+.navbar {
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background: rgba(0,0,0,0.7);
+    backdrop-filter: blur(8px);
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #4CAF50;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar li {
+    margin-left: 25px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+/* HERO SECTION */
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero h1 {
+    font-size: 60px;
+}
+
+.hero h1 span {
+    color: #4CAF50;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #4CAF50;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #45a049;
+}
+
+/* PROJECT SECTION */
+.projects {
+    padding: 100px 20px;
+}
+
+.project-grid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 25px;
+}
+
+.project-card {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    background: #222;
+}
+
+.project-card .tag {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background: #4CAF50;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+/* ABOUT SECTION */
+.about {
+    padding: 100px 20px;
+}
+
+/* CONTACT */
+.contact {
+    padding: 100px 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    border-top: 1px solid #222;
+}
