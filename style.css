@@ -84,6 +84,106 @@ h2 {
     background: #45a049;
 }
 
+.expertise {
+  background: #0d1117;
+  color: #f0f6fc;
+  padding: 100px 7%;
+  font-family: Arial, sans-serif;
+}
+
+.expertise-container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.section-heading {
+  margin-bottom: 45px;
+}
+
+.eyebrow {
+  color: #58a6ff;
+  font-size: 12px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.section-heading h2 {
+  font-size: clamp(36px, 5vw, 52px);
+  margin: 15px 0;
+}
+
+.section-heading h2 span {
+  color: #58a6ff;
+}
+
+.section-heading p {
+  color: #8b949e;
+  max-width: 500px;
+  line-height: 1.8;
+}
+
+.expertise-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.service-card {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 12px;
+  padding: 30px;
+  transition: 0.3s ease;
+}
+
+.service-card:hover {
+  border-color: #58a6ff;
+  transform: translateY(-6px);
+}
+
+.service-icon {
+  color: #58a6ff;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.service-card h3 {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.service-card p {
+  color: #8b949e;
+  line-height: 1.8;
+  font-size: 14px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 22px;
+}
+
+.tags span {
+  background: #21262d;
+  color: #58a6ff;
+  border: 1px solid #30363d;
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 11px;
+}
+
+@media (max-width: 650px) {
+  .expertise {
+    padding: 70px 5%;
+  }
+
+  .expertise-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* PROJECT SECTION */
 .projects {
     padding: 100px 20px;
